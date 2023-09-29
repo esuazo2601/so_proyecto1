@@ -8,7 +8,6 @@
 
 ```
 g++ *.cpp -o MiShell
-
 ```
 ## Ejecución de comandos básicos
 
@@ -16,7 +15,6 @@ g++ *.cpp -o MiShell
 
 ```
 ./MiShell
-
 ```
 - Una vez dentro de la shell se pueden ejecutar los comandos básicos de unix 
 - Ejemplo:
@@ -25,7 +23,6 @@ g++ *.cpp -o MiShell
 MiShell~>: ls
 MiShell~>: ls -lf | grep main
 MiShell~>: ls -lf | grep main | wc
-
 ```
 Entre otros
 
@@ -34,13 +31,11 @@ Entre otros
 
 ```
 sudo chmod o+w /var/log
-
 ```
 Una vez realizado se puede ejecutar el daemon con:
 
 ```
 MiShell~>: syslog t p
-
 ```
 siendo t y p valores numericos
 
@@ -48,5 +43,4 @@ siendo t y p valores numericos
 
 ```
 cat /var/log/syslog.log
-
 ```
